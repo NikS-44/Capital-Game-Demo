@@ -77,7 +77,7 @@ function Game(props) {
 		<Form onSubmit={submitHandler}>
 			<Form.Group className="mb-3 input-field" controlId="formBasicText">
 				<Form.Label>
-					What is the capital of {countriesList[currentCapitalIndex].name}{" "}
+					What is the Capital of {countriesList[currentCapitalIndex].name}{" "}
 				</Form.Label>
 				<Form.Control
 					type="text"
